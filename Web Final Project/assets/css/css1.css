@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom right, #65009C, #000000);
+    font-size: 100%;
+      color: white;
+}
+
+.wrapper {
+    margin: auto;
+    width: 90%;
+}
+
+.wrapper .container img{
+    position: absolute;
+    z-index: -10;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    color: rgb(101, 0, 156,);
+}
+
+div h1 {
+    margin: 35px 35px;
+}
+
+nav {
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    padding-top: 70px;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.65em;
+    text-indent: 30px;
+    padding: 10px;
+}
