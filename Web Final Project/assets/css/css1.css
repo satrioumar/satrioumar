@@ -51,4 +51,15 @@ p {
     line-height: 1.65em;
     text-indent: 30px;
     padding: 10px;
+    color: white;
+}
+
+.top-right-content {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/background.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
 }
